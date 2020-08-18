@@ -1,1 +1,4 @@
-node_modules
+.DS_Store
+
+# Dependency dictionaries
+node_modules/
