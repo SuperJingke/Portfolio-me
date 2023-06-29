@@ -30,7 +30,7 @@ if($_POST) {
 	
     if($name != "" && filter_var($clientEmail, FILTER_VALIDATE_EMAIL) && $message != "" && $fhp_input == "") {
 		
-		$array["succesMessage"] = "";
+		$array["succesMessage"] = "Thank you for your submission!";
 		
 		$headers  = "MIME-Version: 1.0" . "\r\n";
         $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
