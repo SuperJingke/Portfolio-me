@@ -65,7 +65,7 @@ jQuery(document).ready(function($) {
         $.ajax({
 
             type: "POST",
-            url: "public/php/contact.php",
+            url: "./public/php/contact.php",
             data: postdata,
             dataType: "json",
             success: function(json) {
