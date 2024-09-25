@@ -259,13 +259,13 @@ a:hover
         left: 0;
         margin-right: 0;
         padding-right: 0;
-        /* width: auto;
-        height: auto; */
+        width: 100vw; 
+        height: 100vh; 
 
         background: url(../img/bg.jpg);
         
 
-       
+     
 
     }
 }
